@@ -42,11 +42,12 @@
                             <i class='bx bxl-instagram' ></i>
                         </div>
                         <p>o usa tu email para registrarte</p>
-                        <form class="form form-register" method="post">
+                        <form class="form form-register" action="/Exchange/login/registro" method="post">
+
                             <div>
                                 <label>
                                     <i class='bx bx-user' ></i>
-                                    <input type="text" placeholder="Nombre Usuario" name="userName" id="userName">
+                                    <input type="text" placeholder="Nombre Usuario" name="userName">
                                 </label>
                             </div>
                             <div>
@@ -88,11 +89,11 @@
                             <i class='bx bxl-instagram' ></i>
                         </div>
                         <p>o Iniciar Sesión con una cuenta</p>
-                        <form class="form form-login"novalidate>
+                        <form class="form form-login" action="/Exchange/login/loginSV" method="post">
                             <div>
                                 <label >
                                     <i class='bx bx-envelope' ></i>
-                                    <input type="email" placeholder="Correo Electronico" name="userPassword">
+                                    <input type="email" placeholder="Correo Electronico" name="userEmail">
                                 </label>
                             </div>
                             <div>

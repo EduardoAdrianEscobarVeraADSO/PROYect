@@ -196,13 +196,13 @@ body {
 
 /*RESPONSIVE FORM*/
 
-@media screen and (max-width:750px) {
+@media screen and (max-width: 750px) {
   html {
     font-size: 12px;
   }
 }
 
-@media screen and (max-width:580px) {
+@media screen and (max-width: 580px) {
   html {
     font-size: 15px;
   }
@@ -217,7 +217,7 @@ body {
     padding: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
 
